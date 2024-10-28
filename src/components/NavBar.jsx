@@ -26,8 +26,10 @@ function NavBar({ activeTab }) {
 
   return (
     <header>
-      <div className="logo">
-        <img src={logo} alt="" />
+       <div className="logo">
+        <a href="#home">
+          <img src={logo} alt="" />
+        </a>
       </div>
 
       <nav className={statusNav}>
