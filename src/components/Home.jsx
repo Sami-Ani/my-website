@@ -31,10 +31,10 @@ function Home() {
         <div className="card">
           <img src={avatar} alt="" />
           <div className="info">
-            <div>Web Development</div>
-            <div>Graphics</div>
-            <div>Application Development</div>
-            <div>Web Design</div>
+            <div>Web Dev</div>
+            <div>Graphics and Design</div>
+            <div>Web Application Development</div>
+            <div>Data Analysis</div>
           </div>
         </div>
       </div>
