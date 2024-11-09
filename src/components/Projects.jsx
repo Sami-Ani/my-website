@@ -33,6 +33,7 @@ function Projects() {
 
       language: "HTML5 | CSS3| React Js |  Redux | reactQuery | supabase",
       images: projectImage3,
+      link: "https://the-wild-oasis-template.netlify.app/dashboard",
     },
     {
       name: "Project Fast React Pizza",
@@ -40,6 +41,7 @@ function Projects() {
 
       language: "HTML5 | CSS3 | React Js | tailwindCSS",
       images: projectImage4,
+      link: "https://vasu-fast-react-pizza-co.netlify.app/",
     },
     {
       name: "Project Natours Touring website",
@@ -47,6 +49,7 @@ function Projects() {
 
       language: "HTML5 | CSS3 | Pug template | Node.js | mongoDB",
       images: projectImage5,
+      link: "https://www.natours.dev/",
     },
     {
       name: "Project Daye Library",
@@ -60,6 +63,7 @@ function Projects() {
 
       language: "HTML5 | CSS3 | React Js | Redux",
       images: projectImage7,
+      link: "https://worldwise-jonas.netlify.app/",
     },
   ]);
 
@@ -87,7 +91,13 @@ function Projects() {
                 className="images"
                 ref={(el) => el && refDivs.current.push(el)}
               >
-                <img src={project.images} alt="" />{" "}
+                <a
+                  href={project.link}
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  <img src={project.images} alt="" />{" "}
+                </a>
               </div>
 
               {/* Contents */}
