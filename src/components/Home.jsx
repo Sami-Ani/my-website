@@ -32,8 +32,8 @@ function Home() {
           <img src={avatar} alt="" />
           <div className="info">
             <div>Web Dev</div>
-            <div>Graphics and Design</div>
-            <div>Web Application Development</div>
+            <div>UI/UX</div>
+            <div>Web Apps</div>
             <div>Data Analysis</div>
           </div>
         </div>
